@@ -26,7 +26,7 @@ feature 데이터의 RSSI1,2,3,4 는 맵 의 가운데 보드에서 각 끝의 �
 ![image](https://user-images.githubusercontent.com/70446214/98039906-cbd08200-1e62-11eb-962b-74f272de7189.png)
 
 
-데이터를 수집하는 과정에서 결측값이 발생하지 않도록 유지해주었으므로 결측값을 따로 처리하지 않아도 된다.
+데이터를 수집하는 과정에서 코드적으로 결측값이 발생하는 경우 필터하였으므로 결측값은 존재하지 않는다.
 
 
 ![image](https://user-images.githubusercontent.com/70446214/98039349-e5bd9500-1e61-11eb-9ced-5f4cdbb0f3fc.png)
