@@ -42,11 +42,10 @@ feature 데이터의 RSSI1,2,3,4는 맵 위의 보드가 측정한 rssi값으로
 이상치를 포함한 TestData를 통해 성능을 확인해 보았다.
 ![image](https://user-images.githubusercontent.com/70446214/98041321-14893a80-1e65-11eb-91b8-8d8ec01167f9.png)
 
-
-![image](https://user-images.githubusercontent.com/70446214/98040025-fae6f380-1e62-11eb-99ac-34e2461ea62c.png)
-
 # 결론
+![image](https://user-images.githubusercontent.com/70446214/98040025-fae6f380-1e62-11eb-99ac-34e2461ea62c.png)
 ![image](https://user-images.githubusercontent.com/70446214/98040057-06d2b580-1e63-11eb-9430-393343ee279c.png)
+
 ![image](https://user-images.githubusercontent.com/70446214/98040138-1eaa3980-1e63-11eb-996a-18a28965cfe9.png)
 이상치를 처리했음에도 불구하고 결과에 큰 영향을 주지 않았다. 이상치를 처리한 출력문을 확인해보면, 이상치가 발생하는 경우에는 각 좌표에 대해 균일하게 존재하는 것이 아닌, 주기적으로 이상치가 급격히 발생하고 없어지기 때문에 전처리에 효과적인 방법이 아닌 것으로 추정된다.
 그럼에도 수집된 데이터들의 최소 간견은 15cm 이기 때문에 만약 모듈간의 간격을 더 좁혀 데이터를 수집하였다면 오차를 줄일 수 있을 것으로 추정된다.
